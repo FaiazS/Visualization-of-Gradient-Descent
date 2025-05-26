@@ -15,39 +15,47 @@ An interactive visualization tool that demonstrates how different learning rates
   
 - Responsive design that works on different screen sizes
 
----
+- Use the sliders to adjust:
 
-Use the sliders to adjust:
+  1. Initial X Position: Set the starting point.
 
--Initial X Position: Set the starting point.
+  2. Learning Rate: Control the step size.
 
--Learning Rate: Control the step size.
-
--Number of Iterations: Set how many steps to take.
+  3. Number of Iterations: Set how many steps to take.
 
 ---
 
 # Understanding the Visualization
 
-Blue Curve: The quadratic function (f(x) = x² + 2)
+Blue Curve: 
 
-Red Path: The optimization path of gradient descent
+  The quadratic function (f(x) = x² + 2)
 
-Green Dot: Starting position
+Red Path: 
 
-Purple Dot: Final position
+  The optimization path of gradient descent
 
-Green Line: Global minimum of the function
+Green Dot: 
+
+  Starting position
+
+Purple Dot: 
+
+  Final position
+
+Green Line: 
+
+  Global minimum of the function
 
 Try These Examples
 
-1.Slow Convergence: Learning Rate = 0.01, Iterations = 50 
+  1. Slow Convergence: Learning Rate = 0.01, Iterations = 50 
 
-2.Good Convergence: Learning Rate = 0.1, Iterations = 10
+  2. Good Convergence: Learning Rate = 0.1, Iterations = 10
 
-3.Oscillation: Learning Rate = 0.5, Iterations = 20
+  3. Oscillation: Learning Rate = 0.5, Iterations = 20
 
-4.Divergence: Learning Rate = 1.0, Iterations = 10
+  4. Divergence: Learning Rate = 1.0, Iterations = 10
 
 ---
 # Dependencies
