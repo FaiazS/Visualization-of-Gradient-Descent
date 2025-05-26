@@ -18,8 +18,8 @@ An interactive visualization tool that demonstrates how different learning rates
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/learning-rate-visualizer.git
-   cd learning-rate-visualizer
+   git clone https://github.com/FaiazS/Visualization-of-Gradient-Descent.git
+   cd Visualization-of-Gradient-Descent
    ```
 
 2. Install the required packages:
